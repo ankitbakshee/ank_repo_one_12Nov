@@ -4,6 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * @Author: Ankit Bakshi
+ * 
+ * Login page RDBMS Table entity
+ * */
 @Entity
 @Table(name="login")
 public class LoginEntity {
